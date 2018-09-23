@@ -1,0 +1,316 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 1em;
+}
+body {
+	background-color: #ffffff;
+	color: #003366;
+}
+nav {
+	background-color: #3399cc;
+	height: 60px;
+}
+.nav_menu, header, .popular, .cont, article, .map, .goods {
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 200px;
+}
+nav ul {
+	float: right;
+	clear: top;
+}
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+nav a{
+	padding: 15px;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	width: 80px;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}
+nav li:nth-child(1) a, .navcatalog li:nth-child(1) a, .navcatalog li:nth-child(5) a {
+	background-color: #99cc66;
+	text-shadow: 0px 0px 5px #669933;	
+}
+nav li:nth-child(2) a, .navcatalog li:nth-child(2) a, .navcatalog li:nth-child(6) a {
+	background-color: #99ccff;
+	text-shadow: 0px 0px 5px #3399cc;
+}
+nav li:nth-child(3) a, .navcatalog li:nth-child(3) a, .navcatalog li:nth-child(7) a {
+	background-color: #ff99cc;
+	text-shadow: 0px 0px 3px #ff6699;
+}
+nav li:nth-child(4) a, .navcatalog li:nth-child(4) a, .navcatalog li:nth-child(8) a {
+	background-color: #ff6699;
+	text-shadow: 0px 0px 5px #660000;
+}
+nav li a:hover, .navcatalog li a:hover {
+	background-color: #ffcc00;
+	text-shadow: 0px 0px 3px #ff9900;
+}
+.blueborderbottom {
+	background: url("../images/bbblue.png") repeat-x #fff;
+	height:35px;
+}
+.contacts {
+	float:right;
+	text-align: right;
+	margin-top: 30px;
+}
+.contacts .phone {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+header {
+	color: #3399cc;
+	height: 110px;
+}
+header a, .contacts p, h1, h2, h3, footer p, .note p { 
+	font-family: Segoe Script, Comic Sans MS, Tahoma;
+}
+header a {
+	text-decoration: none;
+	color: #3399cc;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+header img { margin-right: 20px; }
+.headerimg {
+	background: url("../images/head.jpg") no-repeat center #333333;
+	background-size: 100%;
+	height: 300px;
+}
+.whiteborderbottom {
+	height:30px;
+	background: url("../images/bbwhite.png") repeat-x;
+}
+
+.popular {
+	margin-top: -100px;
+}
+.popular h3 {
+	text-align: center;
+	margin: 10px;
+}
+.popular p { margin: 0px 20px 0px 20px; }
+.popular .price {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+}
+.popular1 .price { background-color: #669933; }
+.popular2 .price { background-color: #3399cc; }
+.popular3 .price { background-color: #cc0033; }
+.popular1, .popular2, .popular3 {
+	width: 32%;
+	border-radius: 20px;
+	float: left;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+.popular1 {
+	background-color: #99cc66;	
+	margin-right: 2%;
+}
+.pimg {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.popular1 .pimg {
+	background: url("../images/teddy.jpg") no-repeat #ffffff;
+	background-size: 100%;
+}
+.popular2 .pimg {
+	background: url("../images/dog.jpg") no-repeat #ffffff;
+	background-size: 100%;
+}
+.popular3 .pimg {
+	background: url("../images/snowman.jpg") no-repeat #ffffff;
+	background-size: 100%;
+}
+.popular2 {
+	background-color: #99ccff;	
+	margin-right: 2%;
+}
+.popular3 { background-color: #ff99cc; }
+h1 {
+	font-size: 1.3em;
+	color: #3399cc;
+	text-align: center;
+	border-bottom: 2px solid #99ccff;
+	margin-top: 10px;
+}
+h2 { font-size: 1.1em; }
+article {
+	clear: both;
+	margin-top: 30px;
+	border: 2px solid #99ccff;
+	border-radius: 20px;
+}
+article ul, article img { margin: 0 20px 0 20px; }
+section {
+	margin: 15px;
+	width: 45%;
+	float: left;
+}
+article section img {
+	width: 85%;
+	border-radius: 10px;
+}
+.navcatalog {
+		width: 20%;
+		padding: 15px;
+		float: left;
+}
+.navcatalog a {
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+.navcatalog li {
+	display: block;
+	text-decoration: none;
+}
+.goodsinfo {
+	float: left;
+	margin-left: 20px;
+	width: 70%;
+}
+.itemcatalog {
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.itemcatalog img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.note {
+	clear: both;
+	width: 100%;
+	color: #3399cc;
+	margin: 20px;
+}
+.toys {
+	background: url("../images/toys.png") no-repeat;
+	background-size: 100%;
+	height: 300px;
+	margin-top: -230px;
+	z-index: 100;
+	position: absolute;
+	width: 960px;
+}
+.catalog {
+	background-color: #ffccff;
+	padding-top: 100px;
+}
+.pinkbordertop {
+	background: url("../images/btpink.png") repeat-x;
+	height: 10px;
+	margin-top: 140px;
+}
+.pinkborderbottom {
+	background: url("../images/bbpink.png") repeat-x;
+	height: 20px;
+}
+.cont section img {
+		border: 3px solid #ffffff;
+		border-radius: 10px;
+		float: left;
+		margin-right: 10px;
+}
+.cont .note { margin: 0; }
+.map {
+	clear: both;
+	width: 500px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.blueborderltop {
+	background: url("../images/btlblue.png") repeat-x;
+	height: 10px;
+	margin-top: 30px;
+	clear: both;
+}
+.bluebordertop {
+	background: url("../images/btblue.png") repeat-x;
+	margin-top: 20px;
+	height: 10px;
+}
+footer {
+	background-color:#99ccff;
+	font-size: 1.3em;
+	font-weight: bold;
+	height: 160px;
+	padding-top: 20px;
+}
+footer p { margin-left: 20px; }
+.footer1 {
+	height:60px;
+	background-color: #3399cc;
+	color: #ffffff;
+	padding-top: 20px;
+}
+@media screen and (max-width: 960px) {
+	.toys {
+		display: none;
+	}
+	.catalog { padding-top: 10px; }
+	.pinkbordertop { margin-top: 10px; }
+}
+@media screen and (max-width: 700px) {
+	.headerimg { height: 200px;	}
+	.contacts { display: none; }
+	.popular1, .popular2 { margin-right: 10px; }
+	.pimg {
+		width: 140px;
+		height: 140px;
+		border-radius: 70px;
+	}
+	section { width: 100%; }
+	footer { font-size: 1em; }
+}
+@media screen and (max-width: 520px) {
+	nav { height: 130px; }
+	nav li a{
+		display: block;
+		border-radius: 10px;
+		margin-top: 10px;
+		float: left;
+	}
+	.headerimg { height: 130px; }
+	.popular1, .popular2 { margin-right: 5px; }
+	.pimg {
+		width: 80px;
+		height: 80px;
+		border-radius: 40px;
+	}
+	.popular { font-size: 0.8em; }
+	.popular p { margin: 0 5px 0 5px; }
+	footer { font-size: 0.8em; }
+}
+@media screen and (max-width: 350px) {
+	header { height: 160px;	}
+	.popular { font-size: 0.6em; }
+}
