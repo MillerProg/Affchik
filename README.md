@@ -1,2 +1,2 @@
-# https://millerprog.github.io/Affchik
-Пример верстки
+#Affchik
+Пример верстки HTML+CSS: https://millerprog.github.io/Affchik
