@@ -241,12 +241,6 @@ article section img {
 		margin-right: 10px;
 }
 .cont .note { margin: 0; }
-.map {
-	clear: both;
-	width: 500px;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
 .blueborderltop {
 	background: url("../images/btlblue.png") repeat-x;
 	height: 10px;
