@@ -164,6 +164,7 @@ article {
 }
 article ul, article img { margin: 0 20px 0 20px; }
 section {
+    padding-right: 15px;
 	margin: 15px;
 	width: 45%;
 	float: left;
@@ -234,13 +235,20 @@ article section img {
 	background: url("../images/bbpink.png") repeat-x;
 	height: 20px;
 }
+.cont {
+    margin: 0;
+    display: inline-block;
+    padding-right: 10px;
+}
 .cont section img {
 		border: 3px solid #ffffff;
 		border-radius: 10px;
 		float: left;
 		margin-right: 10px;
 }
-.cont .note { margin: 0; }
+cont section p {
+    width: 90%;
+}
 .blueborderltop {
 	background: url("../images/btlblue.png") repeat-x;
 	height: 10px;
